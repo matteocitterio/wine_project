@@ -19,7 +19,7 @@ i dati sono stati scaricati da vivino (https://www.vivino.com), una piattaforma 
 
 Le quantità che possono variare su base giornaliera sono:
 
-`Price`: il prezzo al dato giorno del vino in EURO
-`Rating`: vivino permette agni utenti della piattaforma di valutare il vino su una scala da 1.0 a 5.0 con intervalli decimali. il rating mostrato è la media per una certa annata del vino considerato sulle valutazioni degli utenti
-`num_review`: Numero delle recensioni ricevute da una certa bottiglia
-`Date`: data in cui sono state scaricate le informazioni che variano nel tempo
+- `Price`: il prezzo al dato giorno del vino in EURO
+- `Rating`: vivino permette agni utenti della piattaforma di valutare il vino su una scala da 1.0 a 5.0 con intervalli decimali. il rating mostrato è la media per una certa annata del vino considerato sulle valutazioni degli utenti
+- `num_review`: Numero delle recensioni ricevute da una certa bottiglia
+- `Date`: data in cui sono state scaricate le informazioni che variano nel tempo
