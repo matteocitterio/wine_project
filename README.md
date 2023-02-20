@@ -6,16 +6,16 @@ si tratta di un csv, in python per lavorarci è sufficiente: `df=pd.read_csv('pa
 
 i dati sono stati scaricati da vivino (https://www.vivino.com), una piattaforma online di compra-vendita di vini.
 
-##contenuto:
+## contenuto:
 
-`Sku`: gli oggetti sono indicizzati a partire dallo sku, una stringa univoca per ogni vino (nome del vino + cantina + annata + formato bottiglia)
-`Wine`: nome del vino
-`Winery`: nome della cantina
-`Year`: Annata della bottiglia. Alcuni vini sono cuvee, ovvero sono un blend di diverse annate. Per questi si usa la terminologia `N.V.`, non-vintage
-`Style`: alcuni vini sono catalogati in base alo stile che può essere un metodo produttivo, le uve utilizzate o la regione di provenienza. Troverete, ad esempio, `barolo italiano` o `Pinot Noir Alsaziano` e così via.
-`Region`: Regione di provenienza, ad esempio `Piemonte` o `Champagne`.
-`Country`: Il paese di provenienza, ad esempio `Italia` o `Francia`
-`Volume [ml]`: il formato della bottiglia. Il più comune è 750 ml ma esistono anche le magnum da 1500 ml e altri formati.
+-) `Sku`: gli oggetti sono indicizzati a partire dallo sku, una stringa univoca per ogni vino (nome del vino + cantina + annata + formato bottiglia)
+-) `Wine`: nome del vino
+-) `Winery`: nome della cantina
+-) `Year`: Annata della bottiglia. Alcuni vini sono cuvee, ovvero sono un blend di diverse annate. Per questi si usa la terminologia `N.V.`, non-vintage
+-) `Style`: alcuni vini sono catalogati in base alo stile che può essere un metodo produttivo, le uve utilizzate o la regione di provenienza. Troverete, ad esempio, `barolo italiano` o `Pinot Noir Alsaziano` e così via.
+-) `Region`: Regione di provenienza, ad esempio `Piemonte` o `Champagne`.
+-) `Country`: Il paese di provenienza, ad esempio `Italia` o `Francia`
+-) `Volume [ml]`: il formato della bottiglia. Il più comune è 750 ml ma esistono anche le magnum da 1500 ml e altri formati.
 
 Le quantità che possono variare su base giornaliera sono:
 
